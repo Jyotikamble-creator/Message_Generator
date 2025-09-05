@@ -33,10 +33,10 @@ function App() {
 
 //   rendering all component
   return (
-    <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
+    <div className="p-4 rounded-xl shadow-md bg-white max-w-xl mx-auto">
 
-      <h2>📩 WhatsApp Message Composer</h2>
-      <p>
+      <h2 className="text-lg font-bold mb-2">📩 WhatsApp Message Composer</h2>
+      <p className="mb-4">
         Type a prompt (like <em>"Diwali wish for John"</em>) and we’ll generate
         a message for you.
       </p>

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Message_Generator",
+			"path": "../../Message_Generator"
+		}
+	],
+	"settings": {}
+}

@@ -24,17 +24,20 @@ const MessageGenerator = ({ onMessageGenerated }) => {
         } else {
           // fallback  last word if name not found
           const words = prompt.split(/[\s,]+/);
-          extractedName = words[words.length - 1] || "{name}";
+          extractedName = words[words.length - 1];
         }
       }
+
+      // final fallback if name is still empty
+      extractedName = extractedName || "{name}";
 
       //  Check for predefined prompts
       if (prompt.toLowerCase().includes("diwali")) {
         generation = `Hello ${extractedName}, Diwali greetings! We wish you the best holiday. Namaste!`;
-      } 
+      }
       else if (prompt.toLowerCase().includes("new year")) {
         generation = `Hello ${extractedName}, Happy New Year! Wishing you joy, success, and prosperity.`;
-      } 
+      }
       else {
         // default custom message
         generation = `Hello ${extractedName},  ${prompt}`;
