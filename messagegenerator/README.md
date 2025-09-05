@@ -14,3 +14,5 @@ If you are developing a production application, we recommend using TypeScript wi
 ---
 
 ## ScreenShoots 
+<img width="1920"  alt="without prompt" src="https://github.com/user-attachments/assets/f140dd84-798c-449d-926a-7f6ed663d1a0" />
+<img width="1920"  alt="with prompt" src="https://github.com/user-attachments/assets/7c3eb1ad-9a3d-4e31-9d38-344337646e8f" />
