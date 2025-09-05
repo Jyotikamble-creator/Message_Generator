@@ -38,7 +38,7 @@ function App() {
       <h2>📩 WhatsApp Message Composer</h2>
       <p>
         Type a prompt (like <em>"Diwali wish for John"</em>) and we’ll generate
-        a predefined message for you.
+        a message for you.
       </p>
 
       <MessageGenerator onMessageGenerated={setMessage} />
