@@ -32,11 +32,9 @@ const MessageGenerator = ({ onMessageGenerated }) => {
       if (prompt.toLowerCase().includes("diwali")) {
         generation = `Hello ${extractedName}, Diwali greetings! We wish you the best holiday. Namaste!`;
       } 
-
       else if (prompt.toLowerCase().includes("new year")) {
         generation = `Hello ${extractedName}, Happy New Year! Wishing you joy, success, and prosperity.`;
       } 
-
       else {
         // default custom message
         generation = `Hello ${extractedName},  ${prompt}`;
@@ -49,6 +47,7 @@ const MessageGenerator = ({ onMessageGenerated }) => {
     }
   };
 
+  // input field and generate message button
   return (
     <div style={{ margin: "1rem 0" }}>
 
